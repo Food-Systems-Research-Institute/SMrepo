@@ -1,42 +1,30 @@
-# sv
+# SMrepo
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Development
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+Install packages:
 
 ```sh
-# create a new project
-npx sv create my-app
+pnpm install
 ```
 
-To recreate this project with the same configuration:
+Start a development server:
 
 ```sh
-# recreate this project
-pnpm dlx sv@0.15.2 create --template minimal --types ts --add prettier eslint vitest="usages:unit,component" playwright tailwindcss="plugins:typography,forms" sveltekit-adapter="adapter:node" drizzle="database:sqlite+sqlite:better-sqlite3" --install pnpm SMrepo
+pnpm run dev -- --open
+
+# or
+./run.sh
 ```
 
-## Developing
+## Migrations
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Using Drizzle ORM with SQLite
 
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```ts
+pnpm db:push
+pnpm db:generate
+pnpm db:migrate
+pnpm db:seed
+pnpm db:studio
 ```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
