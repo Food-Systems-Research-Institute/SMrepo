@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+  import type { PageProps } from './$types';
+
+  let { data }: PageProps = $props();
+
+  $inspect(data.result);
+</script>
+
+<h1>Title</h1>
+
+<div>
+  {#each data.result as user}
+    <p>{user.name}: {user.email}, age {user.age}</p>
+  {/each}
+</div>
