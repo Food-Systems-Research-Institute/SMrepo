@@ -8,6 +8,13 @@ Install packages:
 pnpm install
 ```
 
+Set up database:
+
+```sh
+pnpm db:push
+pnpm db:seed
+```
+
 Start a development server:
 
 ```sh
