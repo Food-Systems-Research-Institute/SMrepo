@@ -34,7 +34,7 @@
       </ul>
     </div>
 
-    <a class="btn btn-ghost text-xl" href="/">
+    <a class="text-xl" href="/">
       <img src={logo} alt="Food Systems Research Institute" class="h-10" />
     </a>
   </div>

@@ -7,7 +7,8 @@ export const usersTable = table(
     id: s.int().primaryKey({ autoIncrement: true }),
     name: s.text().notNull(),
     age: s.int().notNull(),
-    email: s.text().notNull().unique()
+    email: s.text().notNull().unique(),
+    link: s.text().notNull().default('www.uvm.edu')
   },
   (table) => [s.uniqueIndex('email_idx').on(table.email)]
 );

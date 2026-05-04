@@ -6,7 +6,7 @@
   $inspect(data.result);
 </script>
 
-<h1>Index</h1>
+<h1>Sustainability Metrics Repository</h1>
 <hr />
 
 <h1>Title</h1>
