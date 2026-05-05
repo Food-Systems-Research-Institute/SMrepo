@@ -12,12 +12,17 @@
   } from '@tanstack/table-core';
   import { createSvelteTable, FlexRender } from '$lib/components/ui/data-table/index.js';
   import { columns } from '$lib/components/ui/data-table/columns.js';
+  import { CssClassManager } from 'ag-grid-community';
 
   let { data }: PageProps = $props();
 
+  // Decide whether or not to include pagination
+  let togglePagination: boolean = false;
+
+  // Set state, track user actions
   let sorting = $state<SortingState>([]);
   let columnFilters = $state<ColumnFiltersState>([]);
-  let pagination = $state<PaginationState>({ pageIndex: 0, pageSize: 5 });
+  let pagination = $state<PaginationState>({ pageIndex: 0, pageSize: togglePagination ? 5 : 9999 });
 
   const table = createSvelteTable({
     get data() {
@@ -35,6 +40,8 @@
         return pagination;
       }
     },
+
+    // Update state on table changes
     onSortingChange: (updater: Updater<SortingState>) => {
       sorting = typeof updater === 'function' ? updater(sorting) : updater;
     },
@@ -44,6 +51,8 @@
     onPaginationChange: (updater: Updater<PaginationState>) => {
       pagination = typeof updater === 'function' ? updater(pagination) : updater;
     },
+
+    // Row model factories for tanstack
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
@@ -51,9 +60,9 @@
   });
 </script>
 
-<h1 class="mb-4">Sustainability Metrics Repository</h1>
+<h1 class="mb-4">Sustainability Metrics Products</h1>
 
-<div class="overflow-x-auto rounded-md border">
+<div class="overflow-x-auto rounded-md border" style="height: 600px;">
   <table class="table w-full table-fixed">
     <thead>
       {#each table.getHeaderGroups() as headerGroup (headerGroup.id)}
@@ -109,24 +118,28 @@
   </table>
 </div>
 
-<div class="mt-4 flex items-center justify-between">
-  <span class="text-sm opacity-60">
-    Page {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
-  </span>
-  <div class="flex gap-2">
-    <button
-      class="btn btn-outline btn-sm"
-      onclick={() => table.previousPage()}
-      disabled={!table.getCanPreviousPage()}
-    >
-      Previous
-    </button>
-    <button
-      class="btn btn-outline btn-sm"
-      onclick={() => table.nextPage()}
-      disabled={!table.getCanNextPage()}
-    >
-      Next
-    </button>
+{#if togglePagination}
+  <div class="mt-4 flex items-center justify-between">
+    <span class="text-sm opacity-60">
+      Page {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
+    </span>
+    <div class="flex gap-2">
+      <button
+        class="btn btn-outline btn-sm"
+        onclick={() => table.previousPage()}
+        disabled={!table.getCanPreviousPage()}
+      >
+        Previous
+      </button>
+      <button
+        class="btn btn-outline btn-sm"
+        onclick={() => table.nextPage()}
+        disabled={!table.getCanNextPage()}
+      >
+        Next
+      </button>
+    </div>
   </div>
-</div>
+{/if}
+
+<!-- NOTE: link styling in app.css because it was conflicting with global styles using :global() -->

@@ -14,8 +14,7 @@ export const products = table(
     adc_doi: s.text(),
     pub_ag: s.text(),
     notes: s.text()
-  },
-  (table) => [s.uniqueIndex('doi_idx').on(table.doi)]
+  }
 );
 
 export type Product = typeof products.$inferSelect;

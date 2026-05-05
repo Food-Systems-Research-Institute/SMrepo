@@ -10,7 +10,11 @@
   --color-uvm-blue: #00313c;
   --color-uvm-light-blue: #489fdf;
   --color-uvm-red: #dc582a;
+
   --color-black: #000000;
+  --color-grey: #cccccc;
+
+  --transition: 0.25s;
 }
 
 /* Global CSS */
@@ -49,4 +53,21 @@
     --color-accent-content: var(--color-black);
 }
 
-/* color reference: https://daisyui.com/docs/colors/ */
+/* Tanstack styling in data-table */
+/* TODO: put this into table/+page.svelte? but then need global override anyway */
+.i-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.i-link {
+  color: var(--color-uvm-green);
+  text-decoration: none;
+  padding: 0.25rem;
+  border-radius: 3px;
+  transition: var(--transition);
+  font-size: 1.25rem;
+}
+.i-link:hover {
+  color: var(--color-uvm-green);
+  background-color: var(--color-grey);
+}

@@ -1,0 +1,1 @@
+DROP INDEX `doi_idx`;
