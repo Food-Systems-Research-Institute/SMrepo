@@ -18,22 +18,22 @@ const linkSnippet = createRawSnippet<[{ doi: string | null }]>((getParams) => ({
 }));
 
 export const columns: ColumnDef<Product>[] = [
-  { accessorKey: 'id', header: 'ID' },
-  { accessorKey: 'team', header: 'Team' },
-  { accessorKey: 'author', header: 'Author' },
-  { accessorKey: 'title', header: 'Title' },
-  { accessorKey: 'host', header: 'Host' },
-  { accessorKey: 'date', header: 'Date' },
+  { accessorKey: 'author', header: 'Author', size: 150 },
+  { accessorKey: 'title', header: 'Title', size: 400 },
+  { accessorKey: 'host', header: 'Host', size: 300 },
+  { accessorKey: 'date', header: 'Date', size: 120 },
   {
     accessorKey: 'doi',
     header: 'DOI',
+    size: 200,
     cell: ({ row }) => renderSnippet(linkSnippet, { doi: row.getValue<string>('doi') })
   },
   {
     accessorKey: 'adc_doi',
     header: 'ADC DOI',
+    size: 200,
     cell: ({ row }) => renderSnippet(linkSnippet, { doi: row.getValue<string>('adc_doi') })
   },
-  { accessorKey: 'pub_ag', header: 'PubAg' },
-  { accessorKey: 'notes', header: 'Notes' }
+  { accessorKey: 'pub_ag', header: 'PubAg', size: 80 },
+  { accessorKey: 'notes', header: 'Notes', size: 200 }
 ];

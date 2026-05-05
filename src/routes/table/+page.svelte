@@ -24,12 +24,12 @@
 </ul>
 
 <div class="overflow-x-auto rounded-md border">
-  <table class="table">
+  <table class="table" style="table-layout: fixed; width: 100%;">
     <thead>
       {#each table.getHeaderGroups() as headerGroup (headerGroup.id)}
         <tr>
           {#each headerGroup.headers as header (header.id)}
-            <th colspan={header.colSpan}>
+            <th colspan={header.colSpan} style="width: {header.getSize()}px">
               {#if !header.isPlaceholder}
                 <FlexRender
                   content={header.column.columnDef.header}
