@@ -1,18 +1,20 @@
 <script lang="ts">
   import { AllCommunityModule, ModuleRegistry, createGrid, type ColDef } from 'ag-grid-community';
-  import type { User } from '$lib/server/db/schema';
+  import type { Product } from '$lib/server/db/schema';
 
-  let { rows }: { rows: User[] } = $props();
+  let { rows }: { rows: Product[] } = $props();
 
   ModuleRegistry.registerModules([AllCommunityModule]);
 
-  const colDefs: ColDef<User>[] = [
+  const colDefs: ColDef<Product>[] = [
     { field: 'id' },
-    { field: 'name' },
-    { field: 'age' },
-    { field: 'email' },
+    { field: 'team' },
+    { field: 'author' },
+    { field: 'title' },
+    { field: 'host' },
+    { field: 'date' },
     {
-      field: 'link',
+      field: 'doi',
       cellRenderer: (params: { value: string }) => {
         if (!params.value) return '';
         const a = document.createElement('a');
@@ -22,7 +24,10 @@
         a.rel = 'noopener noreferrer';
         return a;
       }
-    }
+    },
+    { field: 'adc_doi' },
+    { field: 'pub_ag' },
+    { field: 'notes' }
   ];
 
   function initGrid(el: HTMLElement) {

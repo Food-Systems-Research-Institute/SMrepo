@@ -1,4 +1,10 @@
-name,age,email,link
-John,30,john@example.com,https://www.npr.org
-Bob,25,bob@example.com,https://www.npr.org
-Jeff,47,jeff@example.com,https://www.npr.org
+﻿team,author,title,type,host,date,doi,adc_doi,pub_ag,notes
+,Serge Wiltshire,Regional food system sustainability: Using team science to develop an indicator-based assessment framework,paper,"Journal of Agriculture, Food Systems, and Community Development",,https://doi.org/10.5304/jafscd.2024.141.011,"missing, maybe NA?",missing,Paper in PAR public access repo for NSF
+soil,Courtney Hammond Wagner,Holistic systems thinking underpins vermont soil health practitioners' preferences and beliefs,paper,Soil Security,2025-06-01,https://doi.org/10.1016/j.soisec.2025.100186,https://doi.org/10.15482/USDA.ADC/28723664,yes,
+maple,Emmanuel Abah,Trends of the maple syrup industry in the United States and implications for sustainable development,paper,Journal of Agriculture and Food Research,2026-02-03,https://doi.org/10.1016/j.jafr.2026.102743,By request,missing,missing
+maple,Emmanuel Abah,Maple quality testing: An evaluation of maple syrup compliance with grade A standards,paper,Foods,2025-12-08,https://doi.org/10.3390/foods14244216,missing,missing,"original contributions included in article, otherwise contact author. Is it proprietary? That would be an out"
+maple,Qingbin Wang,The maple syrup industry in Canada and the United States: challenges and potential strategies towards a more sustainable development,paper,Frontiers in Sustainable Food Systems,2025-07-30,https://doi.org/10.3389/fsufs.2025.1562645,missing,missing,says data without reservation
+maple,Qingbin Wang,"Sweet liquid gold facing climate change and sour market conditions: A strengths, weaknesses, opportunities, and threats (SWOT) analysis of the United States maple syrup sector",paper,Sustainability,2025-05-01,https://doi.org/10.3390/su17094101,missing,missing,says available by request
+cfa,David Conner,Sustainability metrics on consumer-facing farms in Vermont: a preliminary report,paper,Renewable Agriculture and Food Systems,2026-01-09,https://doi.org/10.1017/S1742170526100246 ,NA - sensitive,missing,Do they have to document sensitivity? Make request?
+soil,Mojtaba Zeraatpisheh,Spatial mapping and predictive modeling of soil organic carbon stocks in Vermont agricultural lands using machine learning and environmental variables,paper,Computers and Electronics in Agriculture,2025-07-16,https://doi.org/10.1016/j.compag.2025.110727,NA - sensitive,missing,Not explicitly linked to FSRI in paper
+,Courtney Hammond Wagner,"Data, code, and outputs for: Holistic systems thinking underpins Vermont soil health practitioners’ preferences and beliefs",dataset,Ag Data Commons,,https://doi.org/10.15482/USDA.ADC/28723664,,,
