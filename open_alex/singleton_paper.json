@@ -1,0 +1,1589 @@
+{
+    "id": "https://openalex.org/W4404681972",
+    "doi": "https://doi.org/10.5304/jafscd.2024.141.011",
+    "title": "Regional food system sustainability: Using team science to develop an indicator-based assessment framework",
+    "display_name": "Regional food system sustainability: Using team science to develop an indicator-based assessment framework",
+    "publication_year": 2024,
+    "publication_date": "2024-01-01",
+    "ids": {
+        "openalex": "https://openalex.org/W4404681972",
+        "doi": "https://doi.org/10.5304/jafscd.2024.141.011"
+    },
+    "language": "en",
+    "primary_location": {
+        "id": "doi:10.5304/jafscd.2024.141.011",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5304/jafscd.2024.141.011",
+        "pdf_url": "https://foodsystemsjournal.org/index.php/fsj/article/download/1306/1283",
+        "source": {
+            "id": "https://openalex.org/S2764628096",
+            "display_name": "Journal of Agriculture Food Systems and Community Development",
+            "issn_l": "2152-0798",
+            "issn": [
+                "2152-0798",
+                "2152-0801"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310316899",
+            "host_organization_name": "Thomas A. Lyson Center for Civic Agriculture and Food Systems",
+            "host_organization_lineage": [
+                "https://openalex.org/P4310316899"
+            ],
+            "host_organization_lineage_names": [
+                "Thomas A. Lyson Center for Civic Agriculture and Food Systems"
+            ],
+            "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Agriculture, Food Systems, and Community Development",
+        "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+        "crossref",
+        "doaj"
+    ],
+    "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://foodsystemsjournal.org/index.php/fsj/article/download/1306/1283",
+        "any_repository_has_fulltext": true
+    },
+    "authorships": [
+        {
+            "author_position": "first",
+            "author": {
+                "id": "https://openalex.org/A5051287950",
+                "display_name": "Serge Wiltshire",
+                "orcid": "https://orcid.org/0000-0002-0474-2760"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Serge Wiltshire",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-0474-2760",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5064679606",
+                "display_name": "Brian Beckage",
+                "orcid": "https://orcid.org/0000-0002-5908-6924"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Brian Beckage",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-5908-6924",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5107261887",
+                "display_name": "Chris Callahan",
+                "orcid": null
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Chris Callahan",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5010819579",
+                "display_name": "Lisa Chase",
+                "orcid": "https://orcid.org/0000-0003-4209-217X"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Lisa Chase",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-4209-217X",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5019140171",
+                "display_name": "David Conner",
+                "orcid": "https://orcid.org/0000-0002-5529-0485"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "David Conner",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-5529-0485",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5077313779",
+                "display_name": "Heather Darby",
+                "orcid": "https://orcid.org/0000-0003-4553-1684"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Heather Darby",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-4553-1684",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5083759589",
+                "display_name": "Jane Kolodinsky",
+                "orcid": null
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jane Kolodinsky",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-7322-0889",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5067483929",
+                "display_name": "Jana Kraft",
+                "orcid": "https://orcid.org/0000-0003-3445-2710"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jana Kraft",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-3445-2710",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5002326354",
+                "display_name": "Deborah A. Neher",
+                "orcid": "https://orcid.org/0000-0002-9647-8783"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Deborah Neher",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-9647-8783",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5083602417",
+                "display_name": "Walter Poleman",
+                "orcid": null
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Walter Poleman",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5009887999",
+                "display_name": "Taylor H. Ricketts",
+                "orcid": "https://orcid.org/0000-0001-9688-7977"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Taylor Ricketts",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-9688-7977",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5003748515",
+                "display_name": "Daniel Tobin",
+                "orcid": "https://orcid.org/0000-0003-2087-260X"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Daniel Tobin",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-2087-260X",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "middle",
+            "author": {
+                "id": "https://openalex.org/A5034453011",
+                "display_name": "Eric von Wettberg",
+                "orcid": "https://orcid.org/0000-0002-2724-0317"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Eric von Wettberg",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-2724-0317",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        },
+        {
+            "author_position": "last",
+            "author": {
+                "id": "https://openalex.org/A5047780964",
+                "display_name": "Meredith T. Niles",
+                "orcid": "https://orcid.org/0000-0002-8323-1351"
+            },
+            "institutions": [
+                {
+                    "id": "https://openalex.org/I111236770",
+                    "display_name": "University of Vermont",
+                    "ror": "https://ror.org/0155zta11",
+                    "country_code": "US",
+                    "type": "education",
+                    "lineage": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ],
+            "countries": [
+                "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Meredith Niles",
+            "raw_affiliation_strings": [
+                "University of Vermont"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-8323-1351",
+            "affiliations": [
+                {
+                    "raw_affiliation_string": "University of Vermont",
+                    "institution_ids": [
+                        "https://openalex.org/I111236770"
+                    ]
+                }
+            ]
+        }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 14,
+    "corresponding_author_ids": [
+        "https://openalex.org/A5051287950"
+    ],
+    "corresponding_institution_ids": [
+        "https://openalex.org/I111236770"
+    ],
+    "apc_list": {
+        "value": 500,
+        "currency": "USD",
+        "value_usd": 500
+    },
+    "apc_paid": {
+        "value": 500,
+        "currency": "USD",
+        "value_usd": 500
+    },
+    "fwci": 0.8978,
+    "has_fulltext": true,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+        "value": 0.78550066,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+        "min": 91,
+        "max": 98
+    },
+    "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "24"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+        "id": "https://openalex.org/T11259",
+        "display_name": "Agriculture Sustainability and Environmental Impact",
+        "score": 0.9916999936103821,
+        "subfield": {
+            "id": "https://openalex.org/subfields/2303",
+            "display_name": "Ecology"
+        },
+        "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+        },
+        "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+        }
+    },
+    "topics": [
+        {
+            "id": "https://openalex.org/T11259",
+            "display_name": "Agriculture Sustainability and Environmental Impact",
+            "score": 0.9916999936103821,
+            "subfield": {
+                "id": "https://openalex.org/subfields/2303",
+                "display_name": "Ecology"
+            },
+            "field": {
+                "id": "https://openalex.org/fields/23",
+                "display_name": "Environmental Science"
+            },
+            "domain": {
+                "id": "https://openalex.org/domains/3",
+                "display_name": "Physical Sciences"
+            }
+        },
+        {
+            "id": "https://openalex.org/T11066",
+            "display_name": "Organic Food and Agriculture",
+            "score": 0.9850999712944031,
+            "subfield": {
+                "id": "https://openalex.org/subfields/1110",
+                "display_name": "Plant Science"
+            },
+            "field": {
+                "id": "https://openalex.org/fields/11",
+                "display_name": "Agricultural and Biological Sciences"
+            },
+            "domain": {
+                "id": "https://openalex.org/domains/1",
+                "display_name": "Life Sciences"
+            }
+        },
+        {
+            "id": "https://openalex.org/T13240",
+            "display_name": "Bioeconomy and Sustainability Development",
+            "score": 0.9799000024795532,
+            "subfield": {
+                "id": "https://openalex.org/subfields/1100",
+                "display_name": "General Agricultural and Biological Sciences"
+            },
+            "field": {
+                "id": "https://openalex.org/fields/11",
+                "display_name": "Agricultural and Biological Sciences"
+            },
+            "domain": {
+                "id": "https://openalex.org/domains/1",
+                "display_name": "Life Sciences"
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "https://openalex.org/keywords/sustainability",
+            "display_name": "Sustainability",
+            "score": 0.7402623891830444
+        },
+        {
+            "id": "https://openalex.org/keywords/environmental-resource-management",
+            "display_name": "Environmental resource management",
+            "score": 0.46990010142326355
+        },
+        {
+            "id": "https://openalex.org/keywords/process-management",
+            "display_name": "Process management",
+            "score": 0.43477416038513184
+        },
+        {
+            "id": "https://openalex.org/keywords/environmental-planning",
+            "display_name": "Environmental planning",
+            "score": 0.4060254693031311
+        },
+        {
+            "id": "https://openalex.org/keywords/business",
+            "display_name": "Business",
+            "score": 0.332558274269104
+        },
+        {
+            "id": "https://openalex.org/keywords/environmental-science",
+            "display_name": "Environmental science",
+            "score": 0.2922389507293701
+        },
+        {
+            "id": "https://openalex.org/keywords/ecology",
+            "display_name": "Ecology",
+            "score": 0.0937490165233612
+        }
+    ],
+    "concepts": [
+        {
+            "id": "https://openalex.org/C66204764",
+            "wikidata": "https://www.wikidata.org/wiki/Q219416",
+            "display_name": "Sustainability",
+            "level": 2,
+            "score": 0.7402623891830444
+        },
+        {
+            "id": "https://openalex.org/C107826830",
+            "wikidata": "https://www.wikidata.org/wiki/Q929380",
+            "display_name": "Environmental resource management",
+            "level": 1,
+            "score": 0.46990010142326355
+        },
+        {
+            "id": "https://openalex.org/C195094911",
+            "wikidata": "https://www.wikidata.org/wiki/Q14167904",
+            "display_name": "Process management",
+            "level": 1,
+            "score": 0.43477416038513184
+        },
+        {
+            "id": "https://openalex.org/C91375879",
+            "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+            "display_name": "Environmental planning",
+            "level": 1,
+            "score": 0.4060254693031311
+        },
+        {
+            "id": "https://openalex.org/C144133560",
+            "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+            "display_name": "Business",
+            "level": 0,
+            "score": 0.332558274269104
+        },
+        {
+            "id": "https://openalex.org/C39432304",
+            "wikidata": "https://www.wikidata.org/wiki/Q188847",
+            "display_name": "Environmental science",
+            "level": 0,
+            "score": 0.2922389507293701
+        },
+        {
+            "id": "https://openalex.org/C18903297",
+            "wikidata": "https://www.wikidata.org/wiki/Q7150",
+            "display_name": "Ecology",
+            "level": 1,
+            "score": 0.0937490165233612
+        },
+        {
+            "id": "https://openalex.org/C86803240",
+            "wikidata": "https://www.wikidata.org/wiki/Q420",
+            "display_name": "Biology",
+            "level": 0,
+            "score": 0.0
+        }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+        {
+            "id": "doi:10.5304/jafscd.2024.141.011",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.5304/jafscd.2024.141.011",
+            "pdf_url": "https://foodsystemsjournal.org/index.php/fsj/article/download/1306/1283",
+            "source": {
+                "id": "https://openalex.org/S2764628096",
+                "display_name": "Journal of Agriculture Food Systems and Community Development",
+                "issn_l": "2152-0798",
+                "issn": [
+                    "2152-0798",
+                    "2152-0801"
+                ],
+                "is_oa": true,
+                "is_in_doaj": true,
+                "is_core": true,
+                "host_organization": "https://openalex.org/P4310316899",
+                "host_organization_name": "Thomas A. Lyson Center for Civic Agriculture and Food Systems",
+                "host_organization_lineage": [
+                    "https://openalex.org/P4310316899"
+                ],
+                "host_organization_lineage_names": [
+                    "Thomas A. Lyson Center for Civic Agriculture and Food Systems"
+                ],
+                "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Agriculture, Food Systems, and Community Development",
+            "raw_type": "journal-article"
+        },
+        {
+            "id": "pmh:oai:doaj.org/article:d1d586b0d1454063b35f7030c0e00475",
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/d1d586b0d1454063b35f7030c0e00475",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S112646816",
+                "display_name": "SHILAP Revista de lepidopterolog\u00eda",
+                "issn_l": "0300-5267",
+                "issn": [
+                    "0300-5267",
+                    "2340-4078"
+                ],
+                "is_oa": true,
+                "is_in_doaj": true,
+                "is_core": false,
+                "host_organization": null,
+                "host_organization_name": null,
+                "host_organization_lineage": [],
+                "host_organization_lineage_names": [],
+                "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Journal of Agriculture, Food Systems, and Community Development, Vol 14, Iss 1 (2024)",
+            "raw_type": "article"
+        }
+    ],
+    "best_oa_location": {
+        "id": "doi:10.5304/jafscd.2024.141.011",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5304/jafscd.2024.141.011",
+        "pdf_url": "https://foodsystemsjournal.org/index.php/fsj/article/download/1306/1283",
+        "source": {
+            "id": "https://openalex.org/S2764628096",
+            "display_name": "Journal of Agriculture Food Systems and Community Development",
+            "issn_l": "2152-0798",
+            "issn": [
+                "2152-0798",
+                "2152-0801"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310316899",
+            "host_organization_name": "Thomas A. Lyson Center for Civic Agriculture and Food Systems",
+            "host_organization_lineage": [
+                "https://openalex.org/P4310316899"
+            ],
+            "host_organization_lineage_names": [
+                "Thomas A. Lyson Center for Civic Agriculture and Food Systems"
+            ],
+            "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Agriculture, Food Systems, and Community Development",
+        "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+        {
+            "display_name": "Responsible consumption and production",
+            "id": "https://metadata.un.org/sdg/12",
+            "score": 0.4099999964237213
+        }
+    ],
+    "awards": [],
+    "funders": [
+        {
+            "id": "https://openalex.org/F4320306114",
+            "display_name": "U.S. Department of Agriculture",
+            "ror": "https://ror.org/01na82s61"
+        },
+        {
+            "id": "https://openalex.org/F4320332605",
+            "display_name": "Agricultural Research Service",
+            "ror": "https://ror.org/02d2m2044"
+        }
+    ],
+    "has_content": {
+        "grobid_xml": true,
+        "pdf": true
+    },
+    "content_urls": {
+        "pdf": "https://content.openalex.org/works/W4404681972.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W4404681972.grobid-xml"
+    },
+    "referenced_works_count": 53,
+    "referenced_works": [
+        "https://openalex.org/W67157910",
+        "https://openalex.org/W1533453791",
+        "https://openalex.org/W1552130870",
+        "https://openalex.org/W1596169349",
+        "https://openalex.org/W1596991314",
+        "https://openalex.org/W1968559720",
+        "https://openalex.org/W1977383680",
+        "https://openalex.org/W1984769159",
+        "https://openalex.org/W1993236211",
+        "https://openalex.org/W1993908885",
+        "https://openalex.org/W1999023213",
+        "https://openalex.org/W1999924709",
+        "https://openalex.org/W2014635809",
+        "https://openalex.org/W2040875370",
+        "https://openalex.org/W2053715464",
+        "https://openalex.org/W2072780483",
+        "https://openalex.org/W2095933585",
+        "https://openalex.org/W2100318808",
+        "https://openalex.org/W2104460807",
+        "https://openalex.org/W2109397565",
+        "https://openalex.org/W2113842445",
+        "https://openalex.org/W2156271977",
+        "https://openalex.org/W2160096583",
+        "https://openalex.org/W2164908162",
+        "https://openalex.org/W2271174547",
+        "https://openalex.org/W2273941042",
+        "https://openalex.org/W2275199023",
+        "https://openalex.org/W2327701805",
+        "https://openalex.org/W2606487384",
+        "https://openalex.org/W2614226082",
+        "https://openalex.org/W2790738602",
+        "https://openalex.org/W2791875089",
+        "https://openalex.org/W2803603549",
+        "https://openalex.org/W2888940799",
+        "https://openalex.org/W2896829309",
+        "https://openalex.org/W2901325607",
+        "https://openalex.org/W2909396898",
+        "https://openalex.org/W2909678677",
+        "https://openalex.org/W2922041960",
+        "https://openalex.org/W2980372085",
+        "https://openalex.org/W2989865446",
+        "https://openalex.org/W3165741532",
+        "https://openalex.org/W3170300616",
+        "https://openalex.org/W3171113424",
+        "https://openalex.org/W3172309961",
+        "https://openalex.org/W3184060722",
+        "https://openalex.org/W3200907447",
+        "https://openalex.org/W4205277290",
+        "https://openalex.org/W4206744999",
+        "https://openalex.org/W4250123854",
+        "https://openalex.org/W4288702905",
+        "https://openalex.org/W4299923411",
+        "https://openalex.org/W4300961095"
+    ],
+    "related_works": [
+        "https://openalex.org/W4391375266",
+        "https://openalex.org/W1498090503",
+        "https://openalex.org/W4206396619",
+        "https://openalex.org/W3032739460",
+        "https://openalex.org/W1544681840",
+        "https://openalex.org/W4214885392",
+        "https://openalex.org/W2970367016",
+        "https://openalex.org/W4223425174",
+        "https://openalex.org/W2050473667",
+        "https://openalex.org/W2055479757"
+    ],
+    "abstract_inverted_index": {
+        "Food": [
+            0
+        ],
+        "system": [
+            1,
+            106,
+            142,
+            156
+        ],
+        "sustainability,": [
+            2
+        ],
+        "and": [
+            3,
+            11,
+            26,
+            33,
+            39,
+            124,
+            140,
+            146,
+            161,
+            176,
+            198,
+            206,
+            223,
+            230
+        ],
+        "ways": [
+            4
+        ],
+        "of": [
+            5,
+            37,
+            119,
+            143,
+            153,
+            187
+        ],
+        "measuring": [
+            6
+        ],
+        "it,": [
+            7
+        ],
+        "are": [
+            8,
+            18,
+            23
+        ],
+        "widely": [
+            9
+        ],
+        "explored": [
+            10
+        ],
+        "discussed": [
+            12
+        ],
+        "in": [
+            13,
+            87,
+            127,
+            158
+        ],
+        "academic": [
+            14
+        ],
+        "literature.": [
+            15
+        ],
+        "Measurement": [
+            16
+        ],
+        "efforts": [
+            17
+        ],
+        "challenging": [
+            19
+        ],
+        "because": [
+            20
+        ],
+        "food": [
+            21,
+            98,
+            155
+        ],
+        "systems": [
+            22,
+            36
+        ],
+        "inherently": [
+            24
+        ],
+        "complex": [
+            25
+        ],
+        "multifaceted,": [
+            27
+        ],
+        "spanning": [
+            28
+        ],
+        "diverse": [
+            29
+        ],
+        "components,": [
+            30
+        ],
+        "indus\u00adtries,": [
+            31
+        ],
+        "sectors,": [
+            32
+        ],
+        "scales.": [
+            34
+        ],
+        "Several": [
+            35
+        ],
+        "indica\u00adtors": [
+            38
+        ],
+        "metrics": [
+            40,
+            147
+        ],
+        "have": [
+            41
+        ],
+        "been": [
+            42
+        ],
+        "proposed": [
+            43
+        ],
+        "to": [
+            44,
+            97,
+            122,
+            173,
+            217
+        ],
+        "measure": [
+            45,
+            123
+        ],
+        "sustainability;": [
+            46
+        ],
+        "however,": [
+            47
+        ],
+        "most": [
+            48
+        ],
+        "existing": [
+            49
+        ],
+        "research": [
+            50,
+            252
+        ],
+        "focuses": [
+            51
+        ],
+        "either": [
+            52
+        ],
+        "on": [
+            53,
+            204
+        ],
+        "narrow": [
+            54
+        ],
+        "scales": [
+            55,
+            66
+        ],
+        "(e.g.,": [
+            56,
+            72,
+            80
+        ],
+        "farm": [
+            57
+        ],
+        "level": [
+            58
+        ],
+        "or": [
+            59,
+            74,
+            77,
+            94
+        ],
+        "within": [
+            60
+        ],
+        "a": [
+            61,
+            91,
+            108,
+            120,
+            132,
+            141,
+            159,
+            166,
+            179,
+            190,
+            215,
+            236,
+            247
+        ],
+        "single": [
+            62
+        ],
+        "supply": [
+            63
+        ],
+        "chain),": [
+            64
+        ],
+        "expansive": [
+            65
+        ],
+        "that": [
+            67,
+            101,
+            135,
+            148
+        ],
+        "can": [
+            68
+        ],
+        "gloss": [
+            69
+        ],
+        "over": [
+            70
+        ],
+        "complexity": [
+            71
+        ],
+        "national": [
+            73
+        ],
+        "global": [
+            75
+        ],
+        "assessments),": [
+            76
+        ],
+        "limited": [
+            78
+        ],
+        "scopes": [
+            79
+        ],
+        "only": [
+            81
+        ],
+        "consider\u00ading": [
+            82
+        ],
+        "environmental": [
+            83
+        ],
+        "factors).": [
+            84
+        ],
+        "A": [
+            85
+        ],
+        "gap": [
+            86
+        ],
+        "the": [
+            88,
+            105,
+            151,
+            184,
+            219
+        ],
+        "literature": [
+            89
+        ],
+        "is": [
+            90
+        ],
+        "holistic": [
+            92
+        ],
+        "local": [
+            93
+        ],
+        "regional": [
+            95,
+            109
+        ],
+        "approach": [
+            96
+        ],
+        "sys\u00adtem": [
+            99
+        ],
+        "sustainability": [
+            100,
+            126,
+            138,
+            180
+        ],
+        "integrates": [
+            102
+        ],
+        "components": [
+            103
+        ],
+        "across": [
+            104
+        ],
+        "at": [
+            107
+        ],
+        "scale.": [
+            110
+        ],
+        "In": [
+            111
+        ],
+        "this": [
+            112
+        ],
+        "reflec\u00adtive": [
+            113
+        ],
+        "essay,": [
+            114
+        ],
+        "we": [
+            115
+        ],
+        "describe": [
+            116
+        ],
+        "our": [
+            117,
+            196,
+            239
+        ],
+        "development": [
+            118
+        ],
+        "framework": [
+            121,
+            134
+        ],
+        "track": [
+            125
+        ],
+        "such": [
+            128
+        ],
+        "systems.": [
+            129
+        ],
+        "We": [
+            130,
+            164,
+            212
+        ],
+        "use": [
+            131
+        ],
+        "tiered": [
+            133
+        ],
+        "includes": [
+            136
+        ],
+        "five": [
+            137
+        ],
+        "dimensions": [
+            139
+        ],
+        "indices,": [
+            144
+        ],
+        "indicators,": [
+            145
+        ],
+        "allows": [
+            149
+        ],
+        "for": [
+            150,
+            208,
+            238,
+            249
+        ],
+        "measurement": [
+            152
+        ],
+        "important": [
+            154
+        ],
+        "charac\u00adteristics": [
+            157
+        ],
+        "feasible": [
+            160
+        ],
+        "reproducible": [
+            162
+        ],
+        "way.": [
+            163
+        ],
+        "employ": [
+            165
+        ],
+        "collaborative,": [
+            167
+        ],
+        "transdisciplinary,": [
+            168
+        ],
+        "facilitated": [
+            169
+        ],
+        "team": [
+            170,
+            210
+        ],
+        "science": [
+            171
+        ],
+        "process": [
+            172,
+            197
+        ],
+        "first": [
+            174
+        ],
+        "propose,": [
+            175
+        ],
+        "then": [
+            177
+        ],
+        "refine,": [
+            178
+        ],
+        "assessment": [
+            181
+        ],
+        "framework,": [
+            182,
+            220
+        ],
+        "using": [
+            183
+        ],
+        "U.S.": [
+            185
+        ],
+        "state": [
+            186
+        ],
+        "Vermont": [
+            188
+        ],
+        "as": [
+            189,
+            200,
+            202,
+            235,
+            244,
+            246
+        ],
+        "case": [
+            191
+        ],
+        "study.": [
+            192
+        ],
+        "This": [
+            193
+        ],
+        "paper": [
+            194
+        ],
+        "details": [
+            195
+        ],
+        "progress,": [
+            199
+        ],
+        "well": [
+            201,
+            245
+        ],
+        "reflections": [
+            203
+        ],
+        "challenges": [
+            205
+        ],
+        "recommendations": [
+            207
+        ],
+        "other": [
+            209,
+            250
+        ],
+        "scientists.": [
+            211
+        ],
+        "further": [
+            213
+        ],
+        "propose": [
+            214
+        ],
+        "plan": [
+            216
+        ],
+        "implement": [
+            218
+        ],
+        "collect": [
+            221
+        ],
+        "data,": [
+            222
+        ],
+        "engage": [
+            224
+        ],
+        "with": [
+            225
+        ],
+        "community": [
+            226
+        ],
+        "members.": [
+            227
+        ],
+        "The": [
+            228
+        ],
+        "experiences": [
+            229
+        ],
+        "findings": [
+            231
+        ],
+        "described": [
+            232
+        ],
+        "here": [
+            233
+        ],
+        "serve": [
+            234
+        ],
+        "foundation": [
+            237
+        ],
+        "own": [
+            240
+        ],
+        "team\u2019s": [
+            241
+        ],
+        "continued": [
+            242
+        ],
+        "work,": [
+            243
+        ],
+        "springboard": [
+            248
+        ],
+        "similar": [
+            251
+        ],
+        "efforts.": [
+            253
+        ]
+    },
+    "counts_by_year": [
+        {
+            "year": 2026,
+            "cited_by_count": 1
+        },
+        {
+            "year": 2025,
+            "cited_by_count": 1
+        }
+    ],
+    "updated_date": "2026-03-27T05:58:40.876381",
+    "created_date": "2025-10-10T00:00:00"
+}
