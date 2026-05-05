@@ -1,11 +1,12 @@
 <script>
+  import { base } from '$app/paths';
   import logo from '$lib/assets/fsri_logo.png';
   import spirit from '$lib/assets/FSRI-SpiritMarks_FSRI-mark-white.png';
 </script>
 
 <footer class="footer sm:footer-horizontal bg-primary text-neutral-content items-center p-4">
   <aside class="grid-flow-col items-center">
-    <a class="text-xl" href="/">
+    <a class="text-xl" href="{base}/">
       <img src={logo} alt="Food Systems Research Institute" class="h-10" />
     </a>
   </aside>

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import logo from '$lib/assets/fsri_logo.png';
   import spirit from '$lib/assets/FSRI-SpiritMarks_FSRI-mark-white.png';
 </script>
@@ -29,12 +30,12 @@
         tabindex="-1"
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
       >
-        <li><a href="/">Home</a></li>
-        <li><a href="/table">Table</a></li>
+        <li><a href="{base}/">Home</a></li>
+        <li><a href="{base}/table">Table</a></li>
       </ul>
     </div>
 
-    <a class="text-xl" href="/">
+    <a class="text-xl" href="{base}/">
       <img src={logo} alt="Food Systems Research Institute" class="h-10" />
     </a>
   </div>
@@ -42,8 +43,8 @@
   <!-- Desktop -->
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="/">Home</a></li>
-      <li><a href="/table">Table</a></li>
+      <li><a href="{base}/">Home</a></li>
+      <li><a href="{base}/table">Table</a></li>
     </ul>
   </div>
 
