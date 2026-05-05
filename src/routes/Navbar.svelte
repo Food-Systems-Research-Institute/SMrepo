@@ -70,10 +70,8 @@
   a,
   li {
     color: var(--color-primary-content);
+    text-decoration: none;
   }
-  /* details a {
-    color: var(--color-base-content);
-  } */
   .btn-ghost:hover {
     background-color: color-mix(in oklch, var(--color-primary) 85%, black);
     border: 0.5px solid var(--color-neutral);

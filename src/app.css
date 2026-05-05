@@ -28,6 +28,13 @@
         list-style-type: disc;
         list-style-position: inside;
     }
+    a {
+        color: var(--color-uvm-light-blue);
+        text-decoration: underline;
+    }
+    a:hover {
+        color: var(--color-uvm-blue);
+    }
 }
 
 /* DaisyUI reads own css variables, (--color-primary) from data-theme */

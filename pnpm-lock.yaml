@@ -11,9 +11,6 @@ importers:
       '@fortawesome/fontawesome-free':
         specifier: ^7.2.0
         version: 7.2.0
-      '@tanstack/svelte-table':
-        specifier: ^8.21.3
-        version: 8.21.3(svelte@5.55.5(@typescript-eslint/types@8.59.1))
       '@tanstack/table-core':
         specifier: ^8.21.3
         version: 8.21.3
@@ -1144,12 +1141,6 @@ packages:
     resolution: {integrity: sha512-pCvohwOCspk3ZFn6eJzrrX3g4n2JY73H6MmYC87XfGPyTty4YsCjYTMArRZm/zOI8dIt3+EcrLHAFPe5A4bgtw==}
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7 || ^8
-
-  '@tanstack/svelte-table@8.21.3':
-    resolution: {integrity: sha512-VwLt2xfsYHdchdYdFfcl9bxlJts1I6JK50xqhH+KMB9co98rnIyL4pRhTMSDfuB448yQR9E7d6oBLjx8r69cVg==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      svelte: ^4.0.0 || ^3.49.0
 
   '@tanstack/table-core@8.21.3':
     resolution: {integrity: sha512-ldZXEhOBb8Is7xLs01fR3YEc3DERiz5silj8tnGkFZytt1abEvl/GhUmCE0PMLaMPTa3Jk4HbKmRlHmu+gCftg==}
@@ -3104,11 +3095,6 @@ snapshots:
       '@tailwindcss/oxide': 4.2.4
       tailwindcss: 4.2.4
       vite: 8.0.10(@types/node@24.12.2)(esbuild@0.27.7)(jiti@2.6.1)(tsx@4.21.0)
-
-  '@tanstack/svelte-table@8.21.3(svelte@5.55.5(@typescript-eslint/types@8.59.1))':
-    dependencies:
-      '@tanstack/table-core': 8.21.3
-      svelte: 5.55.5(@typescript-eslint/types@8.59.1)
 
   '@tanstack/table-core@8.21.3': {}
 
