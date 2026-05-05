@@ -5,8 +5,6 @@ import { renderSnippet } from '$lib/components/ui/data-table/index.js';
 
 export type { Product };
 
-// Format links as links, if it starts with https
-// Return single HTML element
 const linkSnippet = createRawSnippet<[{ doi: string | null }]>((getParams) => ({
   render: () => {
     const doi = getParams().doi;
@@ -21,7 +19,7 @@ export const columns: ColumnDef<Product>[] = [
   { accessorKey: 'author', header: 'Author', size: 150 },
   { accessorKey: 'title', header: 'Title', size: 400 },
   { accessorKey: 'host', header: 'Host', size: 300 },
-  { accessorKey: 'date', header: 'Date', size: 120 },
+  // { accessorKey: 'date', header: 'Date', size: 120 },
   {
     accessorKey: 'doi',
     header: 'DOI',
@@ -33,7 +31,5 @@ export const columns: ColumnDef<Product>[] = [
     header: 'ADC DOI',
     size: 200,
     cell: ({ row }) => renderSnippet(linkSnippet, { doi: row.getValue<string>('adc_doi') })
-  },
-  { accessorKey: 'pub_ag', header: 'PubAg', size: 80 },
-  { accessorKey: 'notes', header: 'Notes', size: 200 }
+  }
 ];
