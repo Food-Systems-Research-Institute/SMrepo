@@ -29,8 +29,10 @@ const downloadSnippet = createRawSnippet<[{ doi: string | null }]>((getParams) =
 export const columns: ColumnDef<Product>[] = [
   {
     accessorKey: 'download',
-    header: 'Download',
+    header: 'Access',
     size: 100,
+    enableSorting: false,
+    enableColumnFilter: false,
     cell: ({ row }) => renderSnippet(downloadSnippet, { doi: row.getValue<string>('doi') })
   },
   { accessorKey: 'author', header: 'Author', size: 175 },

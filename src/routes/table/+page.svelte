@@ -12,7 +12,6 @@
   } from '@tanstack/table-core';
   import { createSvelteTable, FlexRender } from '$lib/components/ui/data-table/index.js';
   import { columns } from '$lib/components/ui/data-table/columns.js';
-  import { CssClassManager } from 'ag-grid-community';
 
   let { data }: PageProps = $props();
 
@@ -58,11 +57,13 @@
     getFilteredRowModel: getFilteredRowModel(),
     getPaginationRowModel: getPaginationRowModel()
   });
+
+  // $inspect(table.getHeaderGroups());
 </script>
 
 <h1 class="mb-4">Sustainability Metrics Products</h1>
 
-<div class="overflow-x-auto rounded-md border" style="height: 600px;">
+<div class="h-3/4 overflow-x-auto rounded-md border">
   <table class="table w-full table-fixed">
     <thead>
       {#each table.getHeaderGroups() as headerGroup (headerGroup.id)}
@@ -143,3 +144,5 @@
 {/if}
 
 <!-- NOTE: link styling in app.css because it was conflicting with global styles using :global() -->
+
+<div class="h-15"></div>

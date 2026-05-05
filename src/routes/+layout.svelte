@@ -2,6 +2,7 @@
   import '../app.css';
   import favicon from '$lib/assets/favicon.svg';
   import Navbar from './Navbar.svelte';
+  import Footer from './Footer.svelte';
 
   let { children } = $props();
 </script>
@@ -21,3 +22,5 @@
 <main class="mx-auto max-w-5xl px-4 py-8">
   {@render children()}
 </main>
+
+<Footer />
