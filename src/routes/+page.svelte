@@ -15,7 +15,7 @@
 
 <p>Paragraph</p>
 
-<p>Unorderd list:</p>
+<p>Unordered list:</p>
 <ul>
   <li>First thing</li>
   <li>Second thing</li>
