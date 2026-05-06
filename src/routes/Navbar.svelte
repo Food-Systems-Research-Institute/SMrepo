@@ -4,7 +4,7 @@
   import spirit from '$lib/assets/FSRI-SpiritMarks_FSRI-mark-white.png';
 </script>
 
-<div class="navbar bg-primary shadow-sm">
+<div class="navbar bg-primary h-(--header-height) shadow-sm">
   <div class="navbar-start">
     <div class="dropdown">
       <!-- Mobile hamburger -->
@@ -25,13 +25,14 @@
         </svg>
       </div>
 
-      <!-- dropdown -->
+      <!-- Mobile Dropdown Nav -->
       <ul
         tabindex="-1"
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
       >
         <li><a href="{base}/">Home</a></li>
-        <li><a href="{base}/table">Table</a></li>
+        <li><a href="{base}/papers">Papers</a></li>
+        <li><a href="{base}/datasets">Datasets</a></li>
       </ul>
     </div>
 
@@ -40,11 +41,12 @@
     </a>
   </div>
 
-  <!-- Desktop -->
+  <!-- Desktop Nav -->
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
       <li><a href="{base}/">Home</a></li>
-      <li><a href="{base}/table">Table</a></li>
+      <li><a href="{base}/papers">Papers</a></li>
+      <li><a href="{base}/datasets">Datasets</a></li>
     </ul>
   </div>
 

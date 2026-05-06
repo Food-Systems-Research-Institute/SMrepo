@@ -16,7 +16,13 @@
   --color-light-grey: #eeeeee;
   --color-grey: #cccccc;
 
+}
+
+/* Variables to use across pages */
+:root {
+  --header-height: 5rem;
   --transition: 0.25s;
+  --min-screen-height: calc(100vh - var(--header-height));
 }
 
 /* Global CSS */
@@ -53,6 +59,18 @@
     --color-secondary-content: var(--color-white);
     --color-accent: var(--color-uvm-yellow);
     --color-accent-content: var(--color-black);
+}
+
+/* Page formatting */
+.page {
+    margin-inline: auto;
+    min-height: var(--min-screen-height);
+}
+.page-text {
+    max-width: 64rem;
+}
+.page-table {
+    max-width: 100rem;
 }
 
 /* Tanstack styling in data-table */

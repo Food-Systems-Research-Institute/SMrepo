@@ -19,7 +19,7 @@
 
 <Navbar />
 
-<main class="mx-auto max-w-5xl px-4 py-8">
+<main class="max-w-8xl mx-auto px-4 py-8">
   {@render children()}
 </main>
 
