@@ -1,17 +1,71 @@
+<script>
+  import { resolve } from '$app/paths';
+</script>
+
 <div class="page page-text">
   <h1>Sustainability Metrics Repository</h1>
   <hr />
 
   <p>
     This page contains a collection of products from the Sustainability Metrics project at the <a
-      href="/">Food Systems Research Institute</a
+      href="https://www.uvm.edu/ovpr/food-systems-research">Food Systems Research Institute</a
     > at the University of Vermont.
   </p>
   <p>
     Under the <strong>Papers</strong> tab, related manuscripts are linked by DOI to journals for
-    download. Under the <strong>Datsets</strong> tab, public datasets are linked by DOI to their respective
+    download. Under the <strong>Datasets</strong> tab, public datasets are linked by DOI to their respective
     repositories for download. When datasets requiring a DUA are added to the repository, a contact link
     will be provided to request access and begin the DUA process.
   </p>
-  <p>More to come soon!</p>
+  <p>More coming soon.</p>
+
+  <div class="mx-24 my-16 flex justify-center gap-16">
+    <div class="tile">
+      <div class="card">
+        <a href={resolve('/papers')} aria-label="Papers">
+          <i class="fa-solid fa-newspaper text-8xl"></i>
+        </a>
+      </div>
+      <h3>Papers</h3>
+    </div>
+    <div class="tile">
+      <div class="card">
+        <a href={resolve('/datasets')} aria-label="Datasets">
+          <i class="fa-solid fa-database text-8xl"></i>
+        </a>
+      </div>
+      <h3>Datasets</h3>
+    </div>
+  </div>
+
+  <!-- <h2>Contact</h2>
+  <p>Chris Donovan</p>
+  <p><a href="mailto:christopher.donovan@uvm.edu">christopher.donovan@uvm.edu</a></p> -->
 </div>
+
+<style>
+  i {
+    color: var(--color-primary);
+    transition: var(--transition);
+  }
+  /* i:hover {
+    color: var(--color-uvm-blue);
+  } */
+  .tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc(var(--spacing) * 8);
+  }
+  .card {
+    padding: 1rem;
+    border: 1px solid var(--color-dark-grey);
+    background-color: var(--color-grey);
+    transition: var(--transition-long);
+    box-shadow: 4px 6px 8px var(--color-dark-grey);
+  }
+  .card:hover {
+    background-color: color-mix(in oklch, var(--color-grey) 80%, black);
+    transform: translate(0, -0.25rem);
+  }
+</style>

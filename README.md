@@ -24,6 +24,16 @@ pnpm run dev -- --open
 ./run.sh
 ```
 
+## Deploy
+
+Manually on Silk for now:
+
+```
+pnpm db:push
+pnpm db:seed
+silk app $host/smrepo* load
+```
+
 ## Migrations
 
 Using Drizzle ORM with SQLite

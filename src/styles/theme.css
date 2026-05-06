@@ -29,5 +29,8 @@
     /* Variables */
     --header-height: 5rem;
     --transition: 0.2s;
+    --transition-long: 0.3s;
     --min-screen-height: calc(100vh - var(--header-height));
+    --max-page-width-table: 100rem;
+    --max-page-width: 64rem;
 }

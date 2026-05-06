@@ -3,8 +3,8 @@
     min-height: var(--min-screen-height);
 }
 .page-text {
-    max-width: 64rem;
+    max-width: var(--max-page-width);
 }
 .page-table {
-    max-width: 100rem;
+    max-width: var(--max-page-width-table);
 }
