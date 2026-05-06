@@ -18,11 +18,22 @@
 
 }
 
-/* Variables to use across pages */
-:root {
-  --header-height: 5rem;
-  --transition: 0.25s;
-  --min-screen-height: calc(100vh - var(--header-height));
+/* DaisyUI reads own css variables, (--color-primary) from data-theme */
+/* Page for themes and color names: https://daisyui.com/docs/themes/ */
+/* For --color-primary, use it like bg-primary. color always prepends. */
+[data-theme="light"] {
+    /* Colors */
+    --color-primary: var(--color-uvm-green);
+    --color-primary-content: var(--color-white);
+    --color-secondary: var(--color-uvm-blue);
+    --color-secondary-content: var(--color-white);
+    --color-accent: var(--color-uvm-yellow);
+    --color-accent-content: var(--color-black);
+
+    /* Variables */
+    --header-height: 5rem;
+    --transition: 0.25s;
+    --min-screen-height: calc(100vh - var(--header-height));
 }
 
 /* Global CSS */
@@ -47,18 +58,6 @@
     a:hover {
         color: var(--color-uvm-blue);
     }
-}
-
-/* DaisyUI reads own css variables, (--color-primary) from data-theme */
-/* Page for themes and color names: https://daisyui.com/docs/themes/ */
-/* For --color-primary, use it like bg-primary. color always prepends. */
-[data-theme="light"] {
-    --color-primary: var(--color-uvm-green);
-    --color-primary-content: var(--color-white);
-    --color-secondary: var(--color-uvm-blue);
-    --color-secondary-content: var(--color-white);
-    --color-accent: var(--color-uvm-yellow);
-    --color-accent-content: var(--color-black);
 }
 
 /* Page formatting */

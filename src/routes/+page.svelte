@@ -8,18 +8,11 @@
 
 <div class="page page-text">
   <h1>Sustainability Metrics Repository</h1>
-  <hr />
+  <hr class="mb-4" />
 
-  <h1>Title</h1>
-  <h2>Title</h2>
-  <h3>Title</h3>
-
-  <p>Paragraph</p>
-
-  <p>Unordered list:</p>
-  <ul>
-    <li>First thing</li>
-    <li>Second thing</li>
-    <li><a href="https://www.npr.org">a link</a></li>
-  </ul>
+  <p>
+    This is a collection of papers and datasets from the Sustainability Metrics project. For public
+    datasets, links are provided to their respective repositories for download. Private datasets
+    will be provided with a contact link to start the DUA process.
+  </p>
 </div>
