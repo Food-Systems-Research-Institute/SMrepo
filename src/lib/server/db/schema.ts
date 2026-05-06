@@ -1,8 +1,8 @@
 import { sqliteTable as table } from 'drizzle-orm/sqlite-core';
 import * as s from 'drizzle-orm/sqlite-core';
 
-export const products = table(
-  'products',
+export const papers = table(
+  'papers',
   {
     id: s.int().primaryKey({ autoIncrement: true }),
     team: s.text(),
@@ -17,4 +17,19 @@ export const products = table(
   }
 );
 
-export type Product = typeof products.$inferSelect;
+export const datasets = table(
+  'datasets',
+  {
+    id: s.int().primaryKey({ autoIncrement: true }),
+    team: s.text(),
+    author: s.text().notNull(),
+    title: s.text().notNull(),
+    host: s.text().notNull(),
+    date: s.text(),
+    doi: s.text().notNull(),
+    notes: s.text()
+  }
+);
+
+export type Paper = typeof papers.$inferSelect;
+export type Dataset = typeof datasets.$inferSelect;

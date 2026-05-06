@@ -1,0 +1,33 @@
+/* Tailwind utility tokens */
+@theme {
+  --font-sans: "Lora", serif;
+  --color-uvm-green: #154734;
+  --color-uvm-yellow: #ffd100;
+  --color-uvm-white: #f7f7f7;
+  --color-uvm-blue: #00313c;
+  --color-uvm-light-blue: #489fdf;
+  --color-uvm-red: #dc582a;
+
+  --color-black: #000000;
+  --color-light-grey: #eeeeee;
+  --color-grey: #cccccc;
+  --color-dark-grey: #666666;
+
+}
+
+/* Adjust DaisyUI light theme variables */
+/* For --color-primary, use it like bg-primary. color always prepends. */
+[data-theme="light"] {
+    /* Colors */
+    --color-primary: var(--color-uvm-green);
+    --color-primary-content: var(--color-white);
+    --color-secondary: var(--color-uvm-blue);
+    --color-secondary-content: var(--color-white);
+    --color-accent: var(--color-uvm-yellow);
+    --color-accent-content: var(--color-black);
+
+    /* Variables */
+    --header-height: 5rem;
+    --transition: 0.2s;
+    --min-screen-height: calc(100vh - var(--header-height));
+}

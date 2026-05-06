@@ -1,0 +1,19 @@
+/* Tanstack styling in data-table */
+/* That this exists here is a failure of scoping */
+/* Should put it closer to component */
+.i-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.i-link {
+  color: var(--color-uvm-green);
+  text-decoration: none;
+  padding: 0.25rem;
+  border-radius: 3px;
+  transition: var(--transition);
+  font-size: 1.25rem;
+}
+.i-link:hover {
+  color: var(--color-uvm-green);
+  background-color: var(--color-grey);
+}

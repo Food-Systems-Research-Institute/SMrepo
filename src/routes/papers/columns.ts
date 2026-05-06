@@ -1,10 +1,9 @@
 import type { ColumnDef } from '@tanstack/table-core';
-import type { Product } from '$lib/server/db/schema';
+import type { Paper } from '$lib/server/db/schema';
 import { createRawSnippet } from 'svelte';
 import { renderSnippet } from '$lib/components/ui/data-table/index.js';
-// import ExternalLink from '@lucide/svelte/icons/external-link';
 
-export type { Product };
+export type { Paper };
 
 const linkSnippet = createRawSnippet<[{ doi: string | null }]>((getParams) => ({
   render: () => {
@@ -26,7 +25,7 @@ const downloadSnippet = createRawSnippet<[{ doi: string | null }]>((getParams) =
   }
 }));
 
-export const columns: ColumnDef<Product>[] = [
+export const columns: ColumnDef<Paper>[] = [
   {
     accessorKey: 'download',
     header: 'Access',
@@ -43,11 +42,5 @@ export const columns: ColumnDef<Product>[] = [
     header: 'DOI',
     size: 200,
     cell: ({ row }) => renderSnippet(linkSnippet, { doi: row.getValue<string>('doi') })
-  },
-  {
-    accessorKey: 'adc_doi',
-    header: 'ADC DOI',
-    size: 200,
-    cell: ({ row }) => renderSnippet(linkSnippet, { doi: row.getValue<string>('adc_doi') })
   }
 ];

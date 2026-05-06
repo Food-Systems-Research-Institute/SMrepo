@@ -1,18 +1,17 @@
-<script lang="ts">
-  import type { PageProps } from './$types';
-
-  let { data }: PageProps = $props();
-
-  $inspect(data.result);
-</script>
-
 <div class="page page-text">
   <h1>Sustainability Metrics Repository</h1>
-  <hr class="mb-4" />
+  <hr />
 
   <p>
-    This is a collection of papers and datasets from the Sustainability Metrics project. For public
-    datasets, links are provided to their respective repositories for download. Private datasets
-    will be provided with a contact link to start the DUA process.
+    This page contains a collection of products from the Sustainability Metrics project at the <a
+      href="/">Food Systems Research Institute</a
+    > at the University of Vermont.
   </p>
+  <p>
+    Under the <strong>Papers</strong> tab, related manuscripts are linked by DOI to journals for
+    download. Under the <strong>Datsets</strong> tab, public datasets are linked by DOI to their respective
+    repositories for download. When datasets requiring a DUA are added to the repository, a contact link
+    will be provided to request access and begin the DUA process.
+  </p>
+  <p>More to come soon!</p>
 </div>

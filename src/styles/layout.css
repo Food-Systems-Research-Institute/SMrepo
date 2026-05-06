@@ -1,0 +1,10 @@
+.page {
+    margin-inline: auto;
+    min-height: var(--min-screen-height);
+}
+.page-text {
+    max-width: 64rem;
+}
+.page-table {
+    max-width: 100rem;
+}

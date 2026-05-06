@@ -74,9 +74,11 @@
   li {
     color: var(--color-primary-content);
     text-decoration: none;
+    font-size: 1rem;
+    transition: var(--transition);
   }
-  .btn-ghost:hover {
-    background-color: color-mix(in oklch, var(--color-primary) 85%, black);
-    border: 0.5px solid var(--color-neutral);
+  li > a:hover {
+    background-color: color-mix(in oklch, var(--color-primary) 75%, black);
+    color: color-mix(in oklch, var(--color-secondary-content) 80%, black);
   }
 </style>

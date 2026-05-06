@@ -143,3 +143,9 @@
     </div>
   </div>
 {/if}
+
+<style>
+  th {
+    color: var(--color-dark-grey);
+  }
+</style>

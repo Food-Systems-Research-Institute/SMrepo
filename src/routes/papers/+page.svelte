@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PageProps } from './$types';
   import DataTable from '$lib/components/ui/data-table/DataTable.svelte';
-  import { columns } from '$lib/components/ui/data-table/columns.js';
+  import { columns } from './columns.js';
 
   let { data }: PageProps = $props();
 </script>

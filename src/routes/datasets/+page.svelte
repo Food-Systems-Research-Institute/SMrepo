@@ -1,6 +1,6 @@
 <script lang="ts">
   import { DataTable } from '$lib/components/ui/data-table';
-  import { columns } from '$lib/components/ui/data-table/columns';
+  import { columns } from './columns.ts';
   import type { PageProps } from './$types';
 
   let { data }: PageProps = $props();
