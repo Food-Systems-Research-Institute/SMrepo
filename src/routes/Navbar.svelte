@@ -10,18 +10,18 @@
     <div class="navbar-start">
       <div class="dropdown">
         <!-- Mobile hamburger -->
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
+            class="h-8 w-8"
             fill="none"
             viewBox="0 0 24 24"
-            stroke="currentColor"
+            stroke="var(--uvm-white)"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              stroke-width="2"
+              stroke-width="3"
               d="M4 6h16M4 12h8m-8 6h16"
             />
           </svg>
@@ -30,7 +30,7 @@
         <!-- Mobile Dropdown Nav -->
         <ul
           tabindex="-1"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-42 border bg-(--light-gray) p-2 shadow"
         >
           <li><a href={resolve('/')} aria-current={page.url.pathname == resolve('/')}>Home</a></li>
           <li>
@@ -46,13 +46,17 @@
         </ul>
       </div>
 
-      <a class="text-xl" href={resolve('/')}>
-        <img src={logo} alt="Food Systems Research Institute" class="h-10 shrink-0" />
+      <a class="hidden text-xl md:block" href={resolve('/')}>
+        <img
+          src={logo}
+          alt="Food Systems Research Institute"
+          class="fsri-logo h-5 shrink md:h-8 lg:h-10"
+        />
       </a>
     </div>
 
     <!-- Desktop Nav -->
-    <div class="navbar-center hidden lg:flex">
+    <div class="navbar-center hidden md:flex">
       <ul class="menu menu-horizontal px-1">
         <li><a href={resolve('/')} aria-current={page.url.pathname == resolve('/')}>Home</a></li>
         <li>
@@ -89,6 +93,19 @@
 </div>
 
 <style>
+  /* Mobile */
+  .btn-ghost:active {
+    background-color: color-mix(in oklch, var(--color-primary) 75%, black);
+    border: none;
+  }
+  .dropdown-content {
+    a {
+      color: var(--black);
+      font-size: 1.25rem;
+    }
+  }
+
+  /* Desktop */
   a,
   li {
     color: var(--color-primary-content);

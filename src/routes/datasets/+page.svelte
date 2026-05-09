@@ -7,6 +7,6 @@
 </script>
 
 <div class="page page-table">
-  <h1 class="mb-4">Sustainability Metrics Datasets</h1>
+  <h1 class="mb-4 text-center md:text-left">Sustainability Metrics Datasets</h1>
   <DataTable data={data.result} {columns} />
 </div>

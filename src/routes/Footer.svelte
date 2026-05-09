@@ -10,7 +10,7 @@
       <img src={logo} alt="Food Systems Research Institute" class="h-10" />
     </a>
   </aside>
-  <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+  <!-- <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
     <a
       href="https://www.github.com/Food-Systems-Research-Institute"
       target="_blank"
@@ -25,7 +25,7 @@
     >
       <img src={spirit} alt="SM Repository" class="h-8" />
     </a>
-  </nav>
+  </nav> -->
 </footer>
 
 <style>

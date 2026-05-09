@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .i-link {
-  color: var(--color-uvm-green);
+  color: var(--uvm-green);
   text-decoration: none;
   padding: 0.25rem;
   border-radius: 3px;
@@ -14,6 +14,5 @@
   font-size: 1.25rem;
 }
 .i-link:hover {
-  color: var(--color-uvm-green);
-  background-color: var(--color-grey);
+  background-color: var(--grey);
 }

@@ -29,6 +29,7 @@ pnpm run dev -- --open
 Manually on Silk for now:
 
 ```
+pnpm build
 pnpm db:push
 pnpm db:seed
 silk app $host/smrepo* load

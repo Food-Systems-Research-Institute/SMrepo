@@ -3,12 +3,14 @@
 </script>
 
 <div class="page page-text">
-  <h1>Sustainability Metrics Repository</h1>
+  <h1 class="text-center md:text-left">Sustainability Metrics Repository</h1>
   <hr />
 
   <p>
     This page contains a collection of products from the Sustainability Metrics project at the <a
-      href="https://www.uvm.edu/ovpr/food-systems-research">Food Systems Research Institute</a
+      href="https://www.uvm.edu/ovpr/food-systems-research"
+      target="_blank"
+      rel="noopener">Food Systems Research Institute</a
     > at the University of Vermont.
   </p>
   <p>
@@ -17,9 +19,9 @@
     repositories for download. When datasets requiring a DUA are added to the repository, a contact link
     will be provided to request access and begin the DUA process.
   </p>
-  <p>More coming soon.</p>
 
-  <div class="mx-24 my-16 flex justify-center gap-16">
+  <!-- Desktop -->
+  <div class="mx-24 my-16 flex justify-center gap-6 md:gap-16">
     <div class="tile">
       <div class="card">
         <a href={resolve('/papers')} aria-label="Papers">
@@ -48,9 +50,6 @@
     color: var(--color-primary);
     transition: var(--transition);
   }
-  /* i:hover {
-    color: var(--color-uvm-blue);
-  } */
   .tile {
     display: flex;
     flex-direction: column;
@@ -59,13 +58,13 @@
   }
   .card {
     padding: 1rem;
-    border: 1px solid var(--color-dark-grey);
-    background-color: var(--color-grey);
+    border: 1px solid var(--dark-gray);
+    background-color: var(--gray);
     transition: var(--transition-long);
-    box-shadow: 4px 6px 8px var(--color-dark-grey);
+    box-shadow: 4px 6px 8px var(--dark-gray);
   }
   .card:hover {
-    background-color: color-mix(in oklch, var(--color-grey) 80%, black);
+    background-color: color-mix(in oklch, var(--gray) 80%, black);
     transform: translate(0, -0.25rem);
   }
 </style>

@@ -146,6 +146,6 @@
 
 <style>
   th {
-    color: var(--color-dark-grey);
+    color: var(--dark-gray);
   }
 </style>
