@@ -1,5 +1,6 @@
 /* Tailwind utility tokens */
 @theme {
+  /* Theme colors */
   --font-sans: 'Lora', serif;
   --uvm-green: #154734;
   --uvm-yellow: #ffd100;
@@ -8,10 +9,25 @@
   --uvm-light-blue: #489fdf;
   --uvm-red: #dc582a;
 
+  /* More colors */
+  --primary-dark: color-mix(in oklch, var(--uvm-green) 90%, black);
   --black: #000000;
   --light-gray: #eeeeee;
   --gray: #cccccc;
   --dark-gray: #666666;
+
+  /* Typography */
+  --menu-font-size-mobile: 1.25rem;
+
+  /* Layout variables */
+  --navbar-height: 5rem;
+  --max-page-width-table: 100rem;
+  --max-page-width: 64rem;
+  /* Account for navbar and py-8 on main */
+  --min-screen-height: calc(100vh - var(--navbar-height) - (var(--spacing) * 16));
+
+  --transition: 0.2s;
+  --transition-long: 0.3s;
 }
 
 /* Adjust DaisyUI light theme variables */
@@ -24,12 +40,4 @@
   --color-secondary-content: var(--uvm-white);
   --color-accent: var(--uvm-yellow);
   --color-accent-content: var(--black);
-
-  /* Variables */
-  --header-height: 5rem;
-  --transition: 0.2s;
-  --transition-long: 0.3s;
-  --min-screen-height: calc(100vh - var(--header-height));
-  --max-page-width-table: 100rem;
-  --max-page-width: 64rem;
 }

@@ -1,10 +1,11 @@
+/* TODO: put this somewhere better. and Rename file */
 .page {
-    margin-inline: auto;
-    min-height: var(--min-screen-height);
+  margin-inline: auto;
+  min-height: var(--min-screen-height);
 }
 .page-text {
-    max-width: var(--max-page-width);
+  max-width: var(--max-page-width);
 }
 .page-table {
-    max-width: var(--max-page-width-table);
+  max-width: var(--max-page-width-table);
 }
